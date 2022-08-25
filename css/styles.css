@@ -1,7 +1,7 @@
 :root {
   /*основні кольори*/
   --primary-text-color: #212121;
-  --secondary-text-color: #757575;
+  --secondary-text-color: #757 575;
   --white-text-color: #ffffff;
   --accent-color: #2196f3;
   --black-logo-color: #000000;
@@ -64,10 +64,12 @@ a {
 
 /*синій логотип*/
 .site-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -75,14 +77,47 @@ a {
   color: var(--black-logo-color);
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--primary-text-color);
+/* -----нижня частина------- */
+.footer {
+  background-color: #2f303a;
 }
 
+.footer-site-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+  letter-spacing: 0.03em;
+}
+
+.logo-white {
+  color: var(--white-text-color);
+}
+
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+
+.footer-contact {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+}
+
+/*-------Студія--------*/
+/*-------------------- */
 /*-----Заголовок------*/
 
 .section-head {
@@ -161,27 +196,6 @@ a {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
-}
-
-/* -----нижня частина------- */
-.footer {
-  background-color: #2f303a;
-}
-
-.adress-list {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--footer-text-color);
-}
-
-.adress-list:hover,
-.adress-list:focus {
-  color: var(--accent-color);
-}
-
-.logo-white {
-  color: var(--white-text-color);
 }
 
 /*-------Портфоліо------*/
