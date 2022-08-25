@@ -27,7 +27,5 @@ GitHub-репозиторія.</li></ul><h2 class="anchor anchorWithHideOnScroll
 значення в макеті відрізняється від стандартного для цього елемента в браузері.</p><p><strong><code>«С16»</code></strong> Кнопкам задана властивість <code>cursor</code> зі значенням <code>pointer</code>.</p><p><strong><code>«С17»</code></strong> У стилях не повторюються значення властивостей, які задані браузером
 за замовчуванням. Наприклад, посиланням не потрібно вказувати <code>cursor: pointer</code>,
 а абзацам <code>font-style: normal</code> або <code>font-weight: 400</code>.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages navigation"></nav></div></div></div></div></main></div></div></div>
-<script src="/lms-html-css-homework/v2/uk/assets/js/runtime~main.beb39019.js"></script>
-<script src="/lms-html-css-homework/v2/uk/assets/js/main.09632f5f.js"></script>
 </body>
 </html>
