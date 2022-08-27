@@ -12,7 +12,7 @@
 }
 /*каркас сайту*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   letter-spacing: 0.03em;
   background-color: var(--white-background-color);
@@ -55,7 +55,11 @@ a {
 .list-description:hover,
 .list-description:focus,
 .header-contact:hover,
-.header-contact:focus {
+.header-contact:focus,
+.footer-contact:hover,
+.footer-contact:focus,
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -98,9 +102,6 @@ a {
 }
 
 .link {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -108,9 +109,6 @@ a {
 }
 
 .footer-contact {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -136,7 +134,6 @@ a {
 }
 
 .button-order {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -145,7 +142,6 @@ a {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--white-text-color);
-  cursor: pointer;
   border: 0px;
   display: flex;
 }
@@ -167,7 +163,6 @@ a {
 }
 
 .specials-paragraph {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -190,8 +185,6 @@ a {
 }
 
 .team-head {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -210,9 +203,6 @@ a {
 }
 
 .teamate-position {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -223,7 +213,6 @@ a {
 /*-------Портфоліо------*/
 
 .inlist-button-pholio {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -231,7 +220,6 @@ a {
   letter-spacing: 0.03em;
   background-color: var(--team-background-color);
   color: var(--primary-text-color);
-  cursor: pointer;
   border: 0px;
 }
 
@@ -249,7 +237,6 @@ a {
 }
 
 .project-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
