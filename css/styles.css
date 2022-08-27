@@ -27,7 +27,8 @@ a {
   text-decoration: none;
 }
 
-button {
+.button-order,
+.inlist-button-pholio {
   cursor: pointer;
 }
 
